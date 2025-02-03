@@ -10,7 +10,7 @@ import 'package:personal_expense_tracker_app/views/login_screen.dart';
 class AuthController extends GetxController {
   final dio = Dio(
     BaseOptions(
-      baseUrl: 'http://172.20.10.3:8000',
+      baseUrl: 'http://192.168.1.6:8000',
     ),
   );
   final usernameController = TextEditingController();

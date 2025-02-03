@@ -10,7 +10,7 @@ class ExpenseController extends GetxController {
   var total = 0.0.obs;
   final dio = Dio(
     BaseOptions(
-      baseUrl: 'http://172.20.10.3:8000',
+      baseUrl: 'http://192.168.1.6:8000',
     ),
   );
 
